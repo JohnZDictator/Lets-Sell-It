@@ -1,0 +1,52 @@
+article{
+    margin: auto;
+    width: 80vw;
+}
+
+.form{
+    padding: 1em 0;
+}
+
+.form-container{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin: 1em 0 0;
+    font-size: 1rem;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+input{
+    padding: 0.2em 0.5em;
+    width: 330px;
+    font-size: 1.1rem;
+}
+
+.error-container{
+    color: red;
+}
+
+.submit-container{
+    text-align: center;
+}
+
+.btn{
+    width: 350px;
+    margin: 1em 0;
+    padding: 0.5em;
+    font-size: 1.4rem;
+    color: white;
+    background: lightskyblue;
+    border: none;
+    border-radius: 0.3em;
+}
+
+.btn:hover{
+    cursor: pointer;
+}

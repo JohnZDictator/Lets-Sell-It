@@ -1,0 +1,78 @@
+article{
+    margin: auto;
+    width: 80vw;
+}
+
+.form-container{
+    width: fit-content;
+    margin:auto;
+}
+
+.image-container{
+    padding-top: 1em;
+    text-align: center;
+}
+
+.image-container>img{
+    width: 6em;
+    height: 6em;
+    border-radius: 3em;
+}
+
+input[type='file']{
+    display: none;
+}
+
+.input-container{
+    margin: 0.5em;
+    padding: 0.5em;
+    width: fit-content;
+}
+
+.upload{
+    cursor: pointer;
+}
+
+label{
+    font-size: 1rem;
+    display:block;
+}
+
+input{
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 4px;
+    width: 300px;
+}
+
+input:not(textarea){
+    line-height: 1;
+    height: 2rem;
+}
+
+.error-message{
+    color: red;
+    text-align: center;
+}
+
+.submit-container{
+    text-align: center;
+}
+
+.btn{
+    width: 350px;
+    font-size: 1.5rem;
+    margin: 1em 0;
+    padding: 0.5em;
+    border: none;
+    background: lightgreen;
+    color: whitesmoke;
+    border-radius: 0.5em;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
